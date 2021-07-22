@@ -1,0 +1,19 @@
+{
+  "name": "event_card_creator_backend",
+  "version": "1.0.0",
+  "description": "card creator backend",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "author": "Le The Viet",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3",
+    "mongoose-paginate-v2": "^1.4.1"
+  }
+}
