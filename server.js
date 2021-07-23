@@ -52,7 +52,7 @@ app.get("/", (req, res) => {
 
 //db.sequelize.sync();
 
-app.get('/*', function (req, res){
+app.get('/person', function (req, res){
   //res.sendFile(path + "index.html")
   const pageTitle = "Homepage - Welcome to my page"
   console.log(req.query);
